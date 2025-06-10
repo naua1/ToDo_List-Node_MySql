@@ -63,7 +63,7 @@ Uma aplicação simples de lista de tarefas (To-Do List) usando **Node.js**, **E
 5. **Inicie o servidor:**
    ```bash
  
-
+   node app.js
    ```
 
 6. **Acesse no navegador:**
