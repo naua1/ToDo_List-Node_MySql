@@ -62,7 +62,8 @@ Uma aplicação simples de lista de tarefas (To-Do List) usando **Node.js**, **E
 
 5. **Inicie o servidor:**
    ```bash
-   node app.js
+ 
+
    ```
 
 6. **Acesse no navegador:**
@@ -75,6 +76,8 @@ Uma aplicação simples de lista de tarefas (To-Do List) usando **Node.js**, **E
 - `GET /` – Lista todas as tarefas
 - `POST /adicionarTarefa` – Adiciona nova tarefa (formulário)
 - `GET /removerTarefa/:id` – Remove uma tarefa pelo ID
+
+  node app.js![toDoList](https://github.com/user-attachments/assets/74db85d7-31a8-4448-a45d-1576d6f0befc)
 
 ## 📄 Licença
 
