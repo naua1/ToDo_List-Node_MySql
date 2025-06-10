@@ -1,0 +1,10 @@
+post http://localhost:3000/adicionarTarefa
+Content-Type: application/json
+
+{
+    "tarefa":"arrumar a casa"
+}
+
+###
+
+get http://localhost:3000

@@ -1,0 +1,24 @@
+<main>
+
+<h1>To-Do list: tarefas do dia!!!</h1>
+<form action="/adicionarTarefa" method="post" >
+    <input type="text" name="tarefa"  placeholder="adicionar tarefa">
+    <input type="submit" value="+">
+ </form>
+
+{{#each tarefas}}
+
+    <div class="dever">
+        <p>
+            {{tarefa}}
+        </p>
+        <a href="/removerTarefa/{{i_d}}">X</a>
+    </div>
+
+
+{{/each}}
+
+
+</main>
+
+
